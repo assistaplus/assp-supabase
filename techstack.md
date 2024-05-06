@@ -47,9 +47,9 @@ assistaplus/assp-supabase is built on the following main stack:
 - [Prettier](https://prettier.io/) – Code Review
 - [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
 - [Vector](https://github.com/Netflix/vector) – Performance Monitoring
+- [Visual Studio Live Share](https://code.visualstudio.com/visual-studio-live-share) – Realtime Code Collaboration
 - [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
 - [RealtimeApp](https://github.com/serverless-components/RealtimeApp) – Serverless / Task Processing
-- [STUDIO](https://studio.design/) – No Code Platforms
 - [Stripe](https://stripe.com) – Payment Services
 - [cURL](http://curl.haxx.se/) – File Transfer
 - [iDoneThis](https://idonethis.com/) – Team Task Management
@@ -117,9 +117,9 @@ assistaplus/assp-supabase is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png' alt='Sentry'/> [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
 - <img width='25' height='25' src='https://img.stackshare.io/service/2912/vector.png' alt='Vector'/> [Vector](https://github.com/Netflix/vector) – Performance Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/service/7894/jEKFRPKV_400x400.jpg' alt='Visual Studio Live Share'/> [Visual Studio Live Share](https://code.visualstudio.com/visual-studio-live-share) – Realtime Code Collaboration
 - <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/10738/serverless-RealtimeApp-logo.png' alt='RealtimeApp'/> [RealtimeApp](https://github.com/serverless-components/RealtimeApp) – Serverless / Task Processing
-- <img width='25' height='25' src='https://img.stackshare.io/service/12111/EMi6zrFB_400x400.jpg' alt='STUDIO'/> [STUDIO](https://studio.design/) – No Code Platforms
 - <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
 - <img width='25' height='25' src='https://img.stackshare.io/service/6552/curl-logo.png' alt='cURL'/> [cURL](http://curl.haxx.se/) – File Transfer
 - <img width='25' height='25' src='https://img.stackshare.io/service/338/default_f863a3d7f927a74d6ae21e8e152265bd07ca6cfe.png' alt='iDoneThis'/> [iDoneThis](https://idonethis.com/) – Team Task Management
@@ -423,7 +423,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (19)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (20)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'>
@@ -566,6 +566,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/7894/jEKFRPKV_400x400.jpg' alt='Visual Studio Live Share'>
+  <br>
+  <sub><a href="https://code.visualstudio.com/visual-studio-live-share">Visual Studio Live Share</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'>
   <br>
   <sub><a href="https://vitejs.dev/">Vite</a></sub>
@@ -584,20 +592,12 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/hosting.svg'/> Hosting (2)
+## <img src='https://img.stackshare.io/hosting.svg'/> Hosting (1)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/10738/serverless-RealtimeApp-logo.png' alt='RealtimeApp'>
   <br>
   <sub><a href="https://github.com/serverless-components/RealtimeApp">RealtimeApp</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/12111/EMi6zrFB_400x400.jpg' alt='STUDIO'>
-  <br>
-  <sub><a href="https://studio.design/">STUDIO</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -786,146 +786,146 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[three](https://www.npmjs.com/three)|v0.136.0|07/31/23|Francesco Sansalvadore |MIT|[CVE-2022-0177](https://github.com/advisories/GHSA-7vvq-7r29-5vg3) (High)|
-|[vite](https://www.npmjs.com/vite)|v3.2.7|06/13/23|Terry Sutton |N/A|[CVE-2024-23331](https://github.com/advisories/GHSA-c24v-8rfc-w8vw) (High)<br/>[CVE-2024-31207](https://github.com/advisories/GHSA-8jhw-289h-jh2g) (Moderate)|
-|[semver](https://www.npmjs.com/semver)|v7.4.0|08/09/23|dependabot[bot] |ISC|[CVE-2022-25883](https://github.com/advisories/GHSA-c2qf-rxjj-qqgw) (Moderate)|
-|[@angular-devkit/build-angular](https://www.npmjs.com/@angular-devkit/build-angular)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@angular/animations](https://www.npmjs.com/@angular/animations)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@angular/cli](https://www.npmjs.com/@angular/cli)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@angular/common](https://www.npmjs.com/@angular/common)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@angular/compiler](https://www.npmjs.com/@angular/compiler)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@angular/compiler-cli](https://www.npmjs.com/@angular/compiler-cli)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@angular/forms](https://www.npmjs.com/@angular/forms)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@angular/platform-browser](https://www.npmjs.com/@angular/platform-browser)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@angular/platform-browser-dynamic](https://www.npmjs.com/@angular/platform-browser-dynamic)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@angular/router](https://www.npmjs.com/@angular/router)|v14.2.5|10/19/22|thorwebdev |MIT|N/A|
-|[@babel/core](https://www.npmjs.com/@babel/core)|v7.18.10|11/16/23|Thor 雷神 Schaeff |MIT|N/A|
-|[@babel/preset-env](https://www.npmjs.com/@babel/preset-env)|v7.18.10|12/18/23|Greg Richardson |MIT|N/A|
-|[@babel/preset-flow](https://www.npmjs.com/@babel/preset-flow)|v7.22.15|12/12/23|Prasad |MIT|N/A|
-|[@babel/preset-react](https://www.npmjs.com/@babel/preset-react)|v7.23.3|02/26/24|Jonathan Summers-Muir |MIT|N/A|
-|[@babel/preset-typescript](https://www.npmjs.com/@babel/preset-typescript)|v7.23.2|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@mdx-js/react](https://www.npmjs.com/@mdx-js/react)|v2.3.0|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@octokit/rest](https://www.npmjs.com/@octokit/rest)|v20.0.2|01/10/24|Charis |MIT|N/A|
-|[@storybook/addon-actions](https://www.npmjs.com/@storybook/addon-actions)|v7.6.17|11/14/23|Kevin Grüneberg |MIT|N/A|
-|[@storybook/addon-docs](https://www.npmjs.com/@storybook/addon-docs)|v7.6.17|11/14/23|Kevin Grüneberg |MIT|N/A|
-|[@storybook/addon-links](https://www.npmjs.com/@storybook/addon-links)|v7.6.17|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@storybook/react](https://www.npmjs.com/@storybook/react)|v8.0.0|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@tailwindcss/typography](https://www.npmjs.com/@tailwindcss/typography)|v0.5.10|01/09/24|Jordi Enric |N/A|N/A|
-|[@testing-library/jest-dom](https://www.npmjs.com/@testing-library/jest-dom)|v6.4.2|09/16/22|dannykng |MIT|N/A|
-|[@testing-library/react](https://www.npmjs.com/@testing-library/react)|v14.0.0|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@types/classnames](https://www.npmjs.com/@types/classnames)|v2.3.1|04/04/24|Francesco Sansalvadore |MIT|N/A|
-|[@types/jasmine](https://www.npmjs.com/@types/jasmine)|v4.0.3|10/19/22|thorwebdev |MIT|N/A|
-|[@types/jest](https://www.npmjs.com/@types/jest)|v29.5.5|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@types/lodash](https://www.npmjs.com/@types/lodash)|v4.14.185|01/03/24|Kevin Grüneberg |MIT|N/A|
-|[@types/node](https://www.npmjs.com/@types/node)|v18.18.8|03/28/24|Alaister Young |MIT|N/A|
-|[@types/react](https://www.npmjs.com/@types/react)|v18.2.48|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@types/react-dom](https://www.npmjs.com/@types/react-dom)|v18.2.18|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@types/react-native](https://www.npmjs.com/@types/react-native)|v0.70.16|04/05/24|Thor 雷神 Schaeff |MIT|N/A|
-|[@types/semver](https://www.npmjs.com/@types/semver)|v7.5.3|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@types/uuid](https://www.npmjs.com/@types/uuid)|v9.0.8|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v6.19.1|07/03/23|necatiozmen |MIT|N/A|
-|[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v5.43.0|07/03/23|necatiozmen |BSD-2-Clause|N/A|
-|[acorn](https://www.npmjs.com/acorn)|v8.8.0|01/22/24|Charis |MIT|N/A|
-|[ai](https://www.npmjs.com/ai)|v2.2.31|11/15/23|Ivan Vasilov |N/A|N/A|
-|[ajv](https://www.npmjs.com/ajv)|v8.11.0|11/25/21|Joshen Lim |MIT|N/A|
-|[animejs](https://www.npmjs.com/animejs)|v3.2.2|04/10/24|Francesco Sansalvadore |MIT|N/A|
-|[babel-jest](https://www.npmjs.com/babel-jest)|v29.7.0|12/18/23|Greg Richardson |MIT|N/A|
-|[classnames](https://www.npmjs.com/classnames)|v2.3.2|04/21/22|Copple |MIT|N/A|
-|[color](https://www.npmjs.com/color)|v3.2.1|11/09/23|Terry Sutton |MIT|N/A|
-|[common-tags](https://www.npmjs.com/common-tags)|v1.8.2|03/02/24|Charis |MIT|N/A|
-|[concurrently](https://www.npmjs.com/concurrently)|v7.6.0|02/22/23|Andrew Smith |MIT|N/A|
-|[config](https://www.npmjs.com/config)|N/A|03/28/24|Alaister Young |MIT|N/A|
-|[copyfiles](https://www.npmjs.com/copyfiles)|v2.4.1|04/25/23|Joshen Lim |MIT|N/A|
-|[cross-fetch](https://www.npmjs.com/cross-fetch)|v3.1.5|04/12/22|egor-romanov |MIT|N/A|
-|[dayjs](https://www.npmjs.com/dayjs)|v1.11.10|11/22/23|Ivan Vasilov |MIT|N/A|
-|[deepmerge](https://www.npmjs.com/deepmerge)|v4.2.2|04/21/22|Copple |MIT|N/A|
-|[eslint-config-next](https://www.npmjs.com/eslint-config-next)|v13.0.3|03/28/24|Alaister Young |N/A|N/A|
-|[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v8.10.0|01/30/24|Kevin Grüneberg |MIT|N/A|
-|[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.31.10|01/30/24|Kevin Grüneberg |MIT|N/A|
-|[eslint-plugin-react-hooks](https://www.npmjs.com/eslint-plugin-react-hooks)|v4.6.0|07/03/23|necatiozmen |MIT|N/A|
-|[file-saver](https://www.npmjs.com/file-saver)|v2.0.5|05/26/22|Terry Sutton |MIT|N/A|
-|[globby](https://www.npmjs.com/globby)|v11.1.0|09/14/23|Kevin Grüneberg |MIT|N/A|
-|[gray-matter](https://www.npmjs.com/gray-matter)|v4.0.3|03/13/24|Greg Richardson |MIT|N/A|
-|[immutability-helper](https://www.npmjs.com/immutability-helper)|v3.1.1|10/24/23|Greg Richardson |MIT|N/A|
-|[jasmine-core](https://www.npmjs.com/jasmine-core)|v4.3.0|10/19/22|thorwebdev |MIT|N/A|
-|[jest-environment-jsdom](https://www.npmjs.com/jest-environment-jsdom)|v29.7.0|09/19/23|Greg Richardson |MIT|N/A|
-|[js-tiktoken](https://www.npmjs.com/js-tiktoken)|v1.0.10|02/12/24|Ivan Vasilov |N/A|N/A|
-|[json-stringify-safe](https://www.npmjs.com/json-stringify-safe)|v5.0.1|11/03/23|Kevin Grüneberg |ISC|N/A|
-|[jsrsasign](https://www.npmjs.com/jsrsasign)|v11.0.0|02/16/24|Charis |MIT|N/A|
-|[jwt-decode](https://www.npmjs.com/jwt-decode)|v4.0.0|03/04/24|Thor 雷神 Schaeff |MIT|N/A|
-|[karma-chrome-launcher](https://www.npmjs.com/karma-chrome-launcher)|v3.1.1|10/19/22|thorwebdev |MIT|N/A|
-|[karma-coverage](https://www.npmjs.com/karma-coverage)|v2.2.0|10/19/22|thorwebdev |MIT|N/A|
-|[karma-jasmine](https://www.npmjs.com/karma-jasmine)|v5.1.0|10/19/22|thorwebdev |MIT|N/A|
-|[karma-jasmine-html-reporter](https://www.npmjs.com/karma-jasmine-html-reporter)|v2.0.0|10/19/22|thorwebdev |MIT|N/A|
-|[katex](https://www.npmjs.com/katex)|v0.16.10|03/26/24|dependabot[bot] |MIT|N/A|
-|[markdown-toc](https://www.npmjs.com/markdown-toc)|v1.2.0|03/13/24|Greg Richardson |MIT|N/A|
-|[minimist](https://www.npmjs.com/minimist)|v1.2.7|02/26/24|Jonathan Summers-Muir |MIT|N/A|
-|[monaco-editor](https://www.npmjs.com/monaco-editor)|v0.33.0|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[node-fetch](https://www.npmjs.com/node-fetch)|v2.6.7|02/26/24|Jonathan Summers-Muir |MIT|N/A|
-|[npm-run-all](https://www.npmjs.com/npm-run-all)|v4.1.5|10/21/22|Terry Sutton |MIT|N/A|
-|[openai](https://www.npmjs.com/openai)|v4.26.1|03/26/24|Kevin Grüneberg |N/A|N/A|
-|[p-queue](https://www.npmjs.com/p-queue)|v6.6.2|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[papaparse](https://www.npmjs.com/papaparse)|v5.4.1|11/25/21|Joshen Lim |MIT|N/A|
-|[path-to-regexp](https://www.npmjs.com/path-to-regexp)|v6.2.1|10/14/22|Joshen Lim |MIT|N/A|
-|[prop-types](https://www.npmjs.com/prop-types)|v15.8.1|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[react-copy-to-clipboard](https://www.npmjs.com/react-copy-to-clipboard)|v5.1.0|10/31/23|Alaister Young |MIT|N/A|
-|[react-datepicker](https://www.npmjs.com/react-datepicker)|v4.18.0|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[react-day-picker](https://www.npmjs.com/react-day-picker)|v8.8.0|02/26/24|Jonathan Summers-Muir |MIT|N/A|
-|[react-dnd](https://www.npmjs.com/react-dnd)|v16.0.1|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[react-dnd-html5-backend](https://www.npmjs.com/react-dnd-html5-backend)|v16.0.1|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[react-dom](https://www.npmjs.com/react-dom)|v18.2.0|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[react-error-boundary](https://www.npmjs.com/react-error-boundary)|v4.0.12|03/26/24|Kevin Grüneberg |N/A|N/A|
-|[react-markdown](https://www.npmjs.com/react-markdown)|v8.0.7|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[react-native](https://www.npmjs.com/react-native)|v0.72.6|11/16/23|Thor 雷神 Schaeff |MIT|N/A|
-|[react-native-web](https://www.npmjs.com/react-native-web)|v0.18.12|04/05/24|Thor 雷神 Schaeff |MIT|N/A|
-|[react-router-dom](https://www.npmjs.com/react-router-dom)|v6.8.1|07/03/23|necatiozmen |MIT|N/A|
-|[react-scripts](https://www.npmjs.com/react-scripts)|v5.0.0|10/11/22|thorwebdev |MIT|N/A|
-|[react-syntax-highlighter](https://www.npmjs.com/react-syntax-highlighter)|v15.5.0|10/31/23|Alaister Young |MIT|N/A|
-|[react-tooltip](https://www.npmjs.com/react-tooltip)|v4.5.1|10/31/23|Alaister Young |MIT|N/A|
-|[react-transition-group](https://www.npmjs.com/react-transition-group)|v2.9.0|02/07/24|Francesco Sansalvadore |BSD-3-Clause|N/A|
-|[remark](https://www.npmjs.com/remark)|v14.0.3|03/13/24|Greg Richardson |MIT|N/A|
-|[remark-gfm](https://www.npmjs.com/remark-gfm)|v4.0.0|03/13/24|Greg Richardson |N/A|N/A|
-|[svgo](https://www.npmjs.com/svgo)|v2.8.0|02/26/24|Jonathan Summers-Muir |MIT|N/A|
-|[swiper](https://www.npmjs.com/swiper)|v11.0.7|04/10/24|Francesco Sansalvadore |MIT|N/A|
-|[tailwindcss](https://www.npmjs.com/tailwindcss)|v3.4.1|01/09/24|Jordi Enric |MIT|N/A|
-|[ts-jest](https://www.npmjs.com/ts-jest)|v29.1.1|12/18/23|Greg Richardson |MIT|N/A|
-|[tsconfig-paths-webpack-plugin](https://www.npmjs.com/tsconfig-paths-webpack-plugin)|v4.1.0|03/26/24|Kevin Grüneberg |MIT|N/A|
-|[tslib](https://www.npmjs.com/tslib)|v2.6.2|10/19/22|thorwebdev |0BSD|N/A|
-|[tsx](https://www.npmjs.com/tsx)|v3.12.7|04/18/22|Copple |N/A|N/A|
-|[unist-util-visit](https://www.npmjs.com/unist-util-visit)|v5.0.0|06/01/23|Greg Richardson |MIT|N/A|
-|[vue](https://www.npmjs.com/vue)|v3.3.4|10/19/22|thorwebdev |MIT|N/A|
-|[yup](https://www.npmjs.com/yup)|v1.4.0|11/25/21|Joshen Lim |MIT|N/A|
-|[zone.js](https://www.npmjs.com/zone.js)|v0.11.8|10/19/22|thorwebdev |MIT|N/A|
+|[three](https://www.npmjs.com/three)|v0.136.0|N/A|N/A |MIT|[CVE-2022-0177](https://github.com/advisories/GHSA-7vvq-7r29-5vg3) (High)|
+|[vite](https://www.npmjs.com/vite)|v3.2.7|N/A|N/A |N/A|[CVE-2024-23331](https://github.com/advisories/GHSA-c24v-8rfc-w8vw) (High)<br/>[CVE-2024-31207](https://github.com/advisories/GHSA-8jhw-289h-jh2g) (Moderate)|
+|[semver](https://www.npmjs.com/semver)|v7.4.0|N/A|N/A |ISC|[CVE-2022-25883](https://github.com/advisories/GHSA-c2qf-rxjj-qqgw) (Moderate)|
+|[@angular-devkit/build-angular](https://www.npmjs.com/@angular-devkit/build-angular)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@angular/animations](https://www.npmjs.com/@angular/animations)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@angular/cli](https://www.npmjs.com/@angular/cli)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@angular/common](https://www.npmjs.com/@angular/common)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@angular/compiler](https://www.npmjs.com/@angular/compiler)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@angular/compiler-cli](https://www.npmjs.com/@angular/compiler-cli)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@angular/forms](https://www.npmjs.com/@angular/forms)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@angular/platform-browser](https://www.npmjs.com/@angular/platform-browser)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@angular/platform-browser-dynamic](https://www.npmjs.com/@angular/platform-browser-dynamic)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@angular/router](https://www.npmjs.com/@angular/router)|v14.2.5|N/A|N/A |MIT|N/A|
+|[@babel/core](https://www.npmjs.com/@babel/core)|v7.18.10|N/A|N/A |MIT|N/A|
+|[@babel/preset-env](https://www.npmjs.com/@babel/preset-env)|v7.18.10|N/A|N/A |MIT|N/A|
+|[@babel/preset-flow](https://www.npmjs.com/@babel/preset-flow)|v7.22.15|N/A|N/A |MIT|N/A|
+|[@babel/preset-react](https://www.npmjs.com/@babel/preset-react)|v7.23.3|N/A|N/A |MIT|N/A|
+|[@babel/preset-typescript](https://www.npmjs.com/@babel/preset-typescript)|v7.23.2|N/A|N/A |MIT|N/A|
+|[@mdx-js/react](https://www.npmjs.com/@mdx-js/react)|v2.3.0|N/A|N/A |MIT|N/A|
+|[@octokit/rest](https://www.npmjs.com/@octokit/rest)|v20.0.2|N/A|N/A |MIT|N/A|
+|[@storybook/addon-actions](https://www.npmjs.com/@storybook/addon-actions)|v7.6.17|N/A|N/A |MIT|N/A|
+|[@storybook/addon-docs](https://www.npmjs.com/@storybook/addon-docs)|v7.6.17|N/A|N/A |MIT|N/A|
+|[@storybook/addon-links](https://www.npmjs.com/@storybook/addon-links)|v7.6.17|N/A|N/A |MIT|N/A|
+|[@storybook/react](https://www.npmjs.com/@storybook/react)|v8.0.0|N/A|N/A |MIT|N/A|
+|[@tailwindcss/typography](https://www.npmjs.com/@tailwindcss/typography)|v0.5.10|N/A|N/A |N/A|N/A|
+|[@testing-library/jest-dom](https://www.npmjs.com/@testing-library/jest-dom)|v6.4.2|N/A|N/A |MIT|N/A|
+|[@testing-library/react](https://www.npmjs.com/@testing-library/react)|v14.0.0|N/A|N/A |MIT|N/A|
+|[@types/classnames](https://www.npmjs.com/@types/classnames)|v2.3.1|N/A|N/A |MIT|N/A|
+|[@types/jasmine](https://www.npmjs.com/@types/jasmine)|v4.0.3|N/A|N/A |MIT|N/A|
+|[@types/jest](https://www.npmjs.com/@types/jest)|v29.5.5|N/A|N/A |MIT|N/A|
+|[@types/lodash](https://www.npmjs.com/@types/lodash)|v4.14.185|N/A|N/A |MIT|N/A|
+|[@types/node](https://www.npmjs.com/@types/node)|v18.18.8|N/A|N/A |MIT|N/A|
+|[@types/react](https://www.npmjs.com/@types/react)|v18.2.48|N/A|N/A |MIT|N/A|
+|[@types/react-dom](https://www.npmjs.com/@types/react-dom)|v18.2.18|N/A|N/A |MIT|N/A|
+|[@types/react-native](https://www.npmjs.com/@types/react-native)|v0.70.16|N/A|N/A |MIT|N/A|
+|[@types/semver](https://www.npmjs.com/@types/semver)|v7.5.3|N/A|N/A |MIT|N/A|
+|[@types/uuid](https://www.npmjs.com/@types/uuid)|v9.0.8|N/A|N/A |MIT|N/A|
+|[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v6.19.1|N/A|N/A |MIT|N/A|
+|[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v5.43.0|N/A|N/A |BSD-2-Clause|N/A|
+|[acorn](https://www.npmjs.com/acorn)|v8.8.0|N/A|N/A |MIT|N/A|
+|[ai](https://www.npmjs.com/ai)|v2.2.31|N/A|N/A |N/A|N/A|
+|[ajv](https://www.npmjs.com/ajv)|v8.11.0|N/A|N/A |MIT|N/A|
+|[animejs](https://www.npmjs.com/animejs)|v3.2.2|N/A|N/A |MIT|N/A|
+|[babel-jest](https://www.npmjs.com/babel-jest)|v29.7.0|N/A|N/A |MIT|N/A|
+|[classnames](https://www.npmjs.com/classnames)|v2.3.2|N/A|N/A |MIT|N/A|
+|[color](https://www.npmjs.com/color)|v3.2.1|N/A|N/A |MIT|N/A|
+|[common-tags](https://www.npmjs.com/common-tags)|v1.8.2|N/A|N/A |MIT|N/A|
+|[concurrently](https://www.npmjs.com/concurrently)|v7.6.0|N/A|N/A |MIT|N/A|
+|[config](https://www.npmjs.com/config)|N/A|N/A|N/A |MIT|N/A|
+|[copyfiles](https://www.npmjs.com/copyfiles)|v2.4.1|N/A|N/A |MIT|N/A|
+|[cross-fetch](https://www.npmjs.com/cross-fetch)|v3.1.5|N/A|N/A |MIT|N/A|
+|[dayjs](https://www.npmjs.com/dayjs)|v1.11.10|N/A|N/A |MIT|N/A|
+|[deepmerge](https://www.npmjs.com/deepmerge)|v4.2.2|N/A|N/A |MIT|N/A|
+|[eslint-config-next](https://www.npmjs.com/eslint-config-next)|v13.0.3|N/A|N/A |N/A|N/A|
+|[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v8.10.0|N/A|N/A |MIT|N/A|
+|[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.31.10|N/A|N/A |MIT|N/A|
+|[eslint-plugin-react-hooks](https://www.npmjs.com/eslint-plugin-react-hooks)|v4.6.0|N/A|N/A |MIT|N/A|
+|[file-saver](https://www.npmjs.com/file-saver)|v2.0.5|N/A|N/A |MIT|N/A|
+|[globby](https://www.npmjs.com/globby)|v11.1.0|N/A|N/A |MIT|N/A|
+|[gray-matter](https://www.npmjs.com/gray-matter)|v4.0.3|N/A|N/A |MIT|N/A|
+|[immutability-helper](https://www.npmjs.com/immutability-helper)|v3.1.1|N/A|N/A |MIT|N/A|
+|[jasmine-core](https://www.npmjs.com/jasmine-core)|v4.3.0|N/A|N/A |MIT|N/A|
+|[jest-environment-jsdom](https://www.npmjs.com/jest-environment-jsdom)|v29.7.0|N/A|N/A |MIT|N/A|
+|[js-tiktoken](https://www.npmjs.com/js-tiktoken)|v1.0.10|N/A|N/A |N/A|N/A|
+|[json-stringify-safe](https://www.npmjs.com/json-stringify-safe)|v5.0.1|N/A|N/A |ISC|N/A|
+|[jsrsasign](https://www.npmjs.com/jsrsasign)|v11.0.0|N/A|N/A |MIT|N/A|
+|[jwt-decode](https://www.npmjs.com/jwt-decode)|v4.0.0|N/A|N/A |MIT|N/A|
+|[karma-chrome-launcher](https://www.npmjs.com/karma-chrome-launcher)|v3.1.1|N/A|N/A |MIT|N/A|
+|[karma-coverage](https://www.npmjs.com/karma-coverage)|v2.2.0|N/A|N/A |MIT|N/A|
+|[karma-jasmine](https://www.npmjs.com/karma-jasmine)|v5.1.0|N/A|N/A |MIT|N/A|
+|[karma-jasmine-html-reporter](https://www.npmjs.com/karma-jasmine-html-reporter)|v2.0.0|N/A|N/A |MIT|N/A|
+|[katex](https://www.npmjs.com/katex)|v0.16.10|N/A|N/A |MIT|N/A|
+|[markdown-toc](https://www.npmjs.com/markdown-toc)|v1.2.0|N/A|N/A |MIT|N/A|
+|[minimist](https://www.npmjs.com/minimist)|v1.2.7|N/A|N/A |MIT|N/A|
+|[monaco-editor](https://www.npmjs.com/monaco-editor)|v0.33.0|N/A|N/A |MIT|N/A|
+|[node-fetch](https://www.npmjs.com/node-fetch)|v2.6.7|N/A|N/A |MIT|N/A|
+|[npm-run-all](https://www.npmjs.com/npm-run-all)|v4.1.5|N/A|N/A |MIT|N/A|
+|[openai](https://www.npmjs.com/openai)|v4.26.1|N/A|N/A |N/A|N/A|
+|[p-queue](https://www.npmjs.com/p-queue)|v6.6.2|N/A|N/A |MIT|N/A|
+|[papaparse](https://www.npmjs.com/papaparse)|v5.4.1|N/A|N/A |MIT|N/A|
+|[path-to-regexp](https://www.npmjs.com/path-to-regexp)|v6.2.1|N/A|N/A |MIT|N/A|
+|[prop-types](https://www.npmjs.com/prop-types)|v15.8.1|N/A|N/A |MIT|N/A|
+|[react-copy-to-clipboard](https://www.npmjs.com/react-copy-to-clipboard)|v5.1.0|N/A|N/A |MIT|N/A|
+|[react-datepicker](https://www.npmjs.com/react-datepicker)|v4.18.0|N/A|N/A |MIT|N/A|
+|[react-day-picker](https://www.npmjs.com/react-day-picker)|v8.8.0|N/A|N/A |MIT|N/A|
+|[react-dnd](https://www.npmjs.com/react-dnd)|v16.0.1|N/A|N/A |MIT|N/A|
+|[react-dnd-html5-backend](https://www.npmjs.com/react-dnd-html5-backend)|v16.0.1|N/A|N/A |MIT|N/A|
+|[react-dom](https://www.npmjs.com/react-dom)|v18.2.0|N/A|N/A |MIT|N/A|
+|[react-error-boundary](https://www.npmjs.com/react-error-boundary)|v4.0.12|N/A|N/A |N/A|N/A|
+|[react-markdown](https://www.npmjs.com/react-markdown)|v8.0.7|N/A|N/A |MIT|N/A|
+|[react-native](https://www.npmjs.com/react-native)|v0.72.6|N/A|N/A |MIT|N/A|
+|[react-native-web](https://www.npmjs.com/react-native-web)|v0.18.12|N/A|N/A |MIT|N/A|
+|[react-router-dom](https://www.npmjs.com/react-router-dom)|v6.8.1|N/A|N/A |MIT|N/A|
+|[react-scripts](https://www.npmjs.com/react-scripts)|v5.0.0|N/A|N/A |MIT|N/A|
+|[react-syntax-highlighter](https://www.npmjs.com/react-syntax-highlighter)|v15.5.0|N/A|N/A |MIT|N/A|
+|[react-tooltip](https://www.npmjs.com/react-tooltip)|v4.5.1|N/A|N/A |MIT|N/A|
+|[react-transition-group](https://www.npmjs.com/react-transition-group)|v2.9.0|N/A|N/A |BSD-3-Clause|N/A|
+|[remark](https://www.npmjs.com/remark)|v14.0.3|N/A|N/A |MIT|N/A|
+|[remark-gfm](https://www.npmjs.com/remark-gfm)|v4.0.0|N/A|N/A |N/A|N/A|
+|[svgo](https://www.npmjs.com/svgo)|v2.8.0|N/A|N/A |MIT|N/A|
+|[swiper](https://www.npmjs.com/swiper)|v11.0.7|N/A|N/A |MIT|N/A|
+|[tailwindcss](https://www.npmjs.com/tailwindcss)|v3.4.1|N/A|N/A |MIT|N/A|
+|[ts-jest](https://www.npmjs.com/ts-jest)|v29.1.1|N/A|N/A |MIT|N/A|
+|[tsconfig-paths-webpack-plugin](https://www.npmjs.com/tsconfig-paths-webpack-plugin)|v4.1.0|N/A|N/A |MIT|N/A|
+|[tslib](https://www.npmjs.com/tslib)|v2.6.2|N/A|N/A |0BSD|N/A|
+|[tsx](https://www.npmjs.com/tsx)|v3.12.7|N/A|N/A |N/A|N/A|
+|[unist-util-visit](https://www.npmjs.com/unist-util-visit)|v5.0.0|N/A|N/A |MIT|N/A|
+|[vue](https://www.npmjs.com/vue)|v3.3.4|N/A|N/A |MIT|N/A|
+|[yup](https://www.npmjs.com/yup)|v1.4.0|N/A|N/A |MIT|N/A|
+|[zone.js](https://www.npmjs.com/zone.js)|v0.11.8|N/A|N/A |MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/package_manager/105011/default_80893882f2063344b2942a4ccdce27a2e60711c9.png'/> Pub (8)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[flame](https://pub.dartlang.org/flame)|v1.12.0|12/19/23|Tyler |MIT|N/A|
-|[flutter](https://pub.dartlang.org/flutter)|v0.0.0|12/19/23|Tyler |N/A|N/A|
-|[flutter_dotenv](https://pub.dartlang.org/flutter_dotenv)|v5.1.0|04/05/24|Thor 雷神 Schaeff |MIT|N/A|
-|[flutter_svg](https://pub.dartlang.org/flutter_svg)|v2.0.5|12/19/23|Tyler |MIT|N/A|
-|[google_sign_in](https://pub.dartlang.org/google_sign_in)|v6.1.5|10/16/23|Tyler |N/A|N/A|
-|[image_picker](https://pub.dartlang.org/image_picker)|v1.0.5|12/19/23|Tyler |N/A|N/A|
-|[lint](https://pub.dartlang.org/lint)|v1.5.3|10/19/22|thorwebdev |N/A|N/A|
-|[uuid](https://pub.dartlang.org/uuid)|v4.3.3|01/25/24|Tyler |MIT|N/A|
+|[flame](https://pub.dartlang.org/flame)|v1.12.0|N/A|N/A |MIT|N/A|
+|[flutter](https://pub.dartlang.org/flutter)|v0.0.0|N/A|N/A |N/A|N/A|
+|[flutter_dotenv](https://pub.dartlang.org/flutter_dotenv)|v5.1.0|N/A|N/A |MIT|N/A|
+|[flutter_svg](https://pub.dartlang.org/flutter_svg)|v2.0.5|N/A|N/A |MIT|N/A|
+|[google_sign_in](https://pub.dartlang.org/google_sign_in)|v6.1.5|N/A|N/A |N/A|N/A|
+|[image_picker](https://pub.dartlang.org/image_picker)|v1.0.5|N/A|N/A |N/A|N/A|
+|[lint](https://pub.dartlang.org/lint)|v1.5.3|N/A|N/A |N/A|N/A|
+|[uuid](https://pub.dartlang.org/uuid)|v4.3.3|N/A|N/A |MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (2)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[boto3](https://pypi.org/project/boto3)|v1.34.59|03/26/24|Thor 雷神 Schaeff |Apache-2.0|N/A|
-|[matplotlib](https://pypi.org/project/matplotlib)|v3.7.1|03/26/24|Thor 雷神 Schaeff |Python-2.0|N/A|
+|[boto3](https://pypi.org/project/boto3)|v1.34.59|N/A|N/A |Apache-2.0|N/A|
+|[matplotlib](https://pypi.org/project/matplotlib)|v3.7.1|N/A|N/A |Python-2.0|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png'/> Apache Maven (2)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[junit:junit](http://junit.org)|v4.13.2|06/12/23|Hieu Vu |EPL-1.0|N/A|
-|[org.jetbrains.kotlin:kotlin-stdlib-jdk7](https://kotlinlang.org/)|N/A|05/04/23|dshukertjr |Apache-2.0|N/A|
+|[junit:junit](http://junit.org)|v4.13.2|N/A|N/A |EPL-1.0|N/A|
+|[org.jetbrains.kotlin:kotlin-stdlib-jdk7](https://kotlinlang.org/)|N/A|N/A|N/A |Apache-2.0|N/A|
 
 <br/>
 <div align='center'>
